@@ -1,0 +1,55 @@
+.flex {
+    display: flex;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .items-center {
+    align-items: center;
+  }
+  
+  .bg-black {
+    background-color: black;
+    color: #ffffff;
+  }
+  .invert {
+    filter: invert(1);
+  }
+  .bg-grey {
+    background-color: #121212;
+  }
+  .rounded {
+    border-radius: 7px;
+  }
+  .border {
+    border: 2px solid red;
+  }
+  .m-1 {
+    margin: 5px;
+  }
+  .p-1 {
+    padding: 10px;
+  }
+  
+  /* For WebKit/Blink browsers */
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background: #333; /* Change this to your desired background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background: #666; /* Change this to your desired thumb color */
+      border-radius: 5px;
+  }
+  
+  /* For Firefox */
+  /* scrollbar-color: #666 #333; thumb and track colors */
+  
+  /* For IE and Edge */
+  /* -ms-overflow-style: none; Hides the scrollbar */
+  /* scrollbar-width: thin; "auto" or "thin" */
+  
+  

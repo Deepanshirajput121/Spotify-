@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.left {
+  width: 25vw;
+  padding: 1px;
+}
+.right {
+  width: 75vw;
+}
+
+.home ul li {
+  width: 14px;
+  /* li ki dots none krdi */
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-top: 14px;
+  font-weight: bold;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  padding-top: 14px;
+  font-weight: bold;
+  align-items: center;
+  font-size: 10px;
+  padding: 7px 4px;
+}
+.heading img {
+  width: 30px;
+}
+.footer {
+  display: flex;
+  font-size: 10px;
+  gap: 13px;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 0px;
+}
+.footer a {
+  color: gray;
+}
+.right {
+  padding: 16px;
+  position: relative;
+}
+.library {
+  min-height: 77vh;
+  /*position : relative help to footer library ke ander hi rhe*/
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+  height: 40px;
+}
+.header > * {
+  position: 20px;
+}
+.spotifyplaylist {
+  margin: 16px;
+  /* padding: 16px; */
+}
+.cardcontainer {
+  margin: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+.play {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1ed760;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 9px;
+  position: absolute;
+  top: 163px;
+  right: 19px;
+}
+.card {
+  /* ye pritam ki width di hai is ki help se img ki bi height sit hojaegi */
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #171616;;
+  position: relative;
+}
+.card > * {
+  padding-top: 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+.signbtn{
+    background-color: #252525;
+    color:  rgb(155, 156, 158);;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.buttons >*{
+margin: 0 12px;
+}
+.signbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.logbtn{
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bolder;
+    padding: 6px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.logbtn:hover{
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+.playbar{
+position: absolute;
+bottom: 2px;
+background-color: #304738;
+width: 95%;
+padding: 9px;
+}
+.songsbutton{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
